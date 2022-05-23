@@ -7,5 +7,3 @@ const Spacer = ({height=100}) => {
 }
 
 export default Spacer
-
-
