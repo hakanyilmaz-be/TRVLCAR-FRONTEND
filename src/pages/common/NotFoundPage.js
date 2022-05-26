@@ -1,17 +1,17 @@
 import React from "react";
+import NotFound from "../../components/common/not-found/not-found";
 import PageHeader from "../../components/users/common/page-header/page-header";
 import Spacer from "../../components/users/common/spacer/spacer";
-import Vehicles from "../../components/users/vehicles/vehicles";
 
-const VehiclesPage = () => {
+const NotFoundPage = () => {
   return (
     <>
-      <PageHeader title="Vehicles" />
+      <PageHeader title="Not Found" />
       <Spacer />
-      <Vehicles />
+      <NotFound />
       <Spacer />
     </>
   );
 };
 
-export default VehiclesPage;
+export default NotFoundPage;
